@@ -1,0 +1,21 @@
+{
+  "name": "student_management_system",
+  "version": "1.0.0",
+  "description": "Managment of different Students",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "Raiyan Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.50.0",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.19",
+    "nodemon": "^2.0.7"
+  }
+}
