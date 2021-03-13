@@ -18,7 +18,8 @@ con.on('open',function(){
 
 const studentRouter =require('./routers/student')
 app.use('/students',studentRouter)
-app.listen(9000,function(){
+var port =process.env.port||5000
+app.listen(port,function(){
       console.log("Server started")
 
 })
